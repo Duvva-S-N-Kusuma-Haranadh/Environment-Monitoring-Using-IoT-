@@ -1,0 +1,26 @@
+ Project Requirements
+
+Hardware Requirements
+- Micro-controller: A Raspberry Pi Pico W or similar device capable of running MicroPython. This serves as the central processing unit for the entire system.
+- DHT11 Sensor: A digital temperature & humidity sensor. It's connected to the microcontroller to provide temperature & humidity readings.
+- Analog Gas Sensor: Used for measuring CO2 & O2 levels. This sensor connects to the microcontroller's analog-to-digital converter (ADC).
+- I2C LCD Display: An LCD screen with I2C interface for local display of sensor readings.
+- Breadboard & Jumper Wires: For prototyping & connecting components.
+
+Software Requirements
+- MicroPython: The programming language used for this project, optimized for microcontrollers.
+- Libraries:
+  - dht: For interfacing with the DHT11 sensor.
+  - machine: For low-level hardware control.
+  - lcd_api and i2c_lcd: For controlling the I2C LCD display.
+  - network: For Wi-Fi connectivity.
+  - uasyncio: For asynchronous programming.
+  - socket: For creating a web server.
+
+- Development Environment: An IDE or text editor for writing and uploading MicroPython code to the microcontroller.
+- Web Technologies: Basic knowledge of HTML and CSS for creating the web dashboard.
+- Firmware: The appropriate firmware for the microcontroller that supports MicroPython and the required libraries.
+- Wi-Fi Network: Access to a Wi-Fi network for the device to connect to and serve the web dashboard.
+- Web Browser: For viewing the dashboard on client devices.
+
+This combination of hardware and software creates a comprehensive environmental monitoring system capable of collecting sensor data, processing it, displaying it locally on an LCD, and making it accessible over a network through a web interface. The system's design allows for real-time monitoring and remote access to environmental data.
