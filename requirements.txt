@@ -1,4 +1,4 @@
- Project Requirements
+Project Requirements
 
 Hardware Requirements
 - Micro-controller: A Raspberry Pi Pico W or similar device capable of running MicroPython. This serves as the central processing unit for the entire system.
