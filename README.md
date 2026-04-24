@@ -24,11 +24,11 @@ The AIoT-based environmental monitoring system offers a scalable and efficient a
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Duvva-S-N-Kusuma-Haranadh/Environment-Monitoring-Using-IoT-.git
+    git clone https://github.com/Duvva-S-N-Kusuma-Haranadh/Environment-Monitoring-Using-IoT.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd Environment-Monitoring-Using-IoT-
+    cd Environment-Monitoring-Using-IoT
     ```
 3. Install the required dependencies:
     ```bash
